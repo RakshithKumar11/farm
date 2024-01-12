@@ -39,6 +39,9 @@ nav li{
    text-align: center;
    color: white;
 }
+#gal-heading{
+    font-size:8vw ;
+}
 .heading h1{
     font-size: 8vw;
     flex-shrink: 1;
