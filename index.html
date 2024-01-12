@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300;1,500&display=swap" rel="stylesheet">
+    <title>Farm Website</title>
+    <style>
+        @media only screen and (max-width:700px){
+            section{
+                display: grid;
+                grid-template-columns: auto auto;
+                justify-self: start;
+                align-content: baseline;
+            }
+            .image img{
+                min-width: 40vw;
+                height: 25vh;
+                gap: 2px;
+                margin: 2vh 0;
+            }
+            ul{
+                display: flex;
+                flex-direction: column;
+                li{
+                    margin: 5px 0;
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+    <video autoplay loop muted id="myVideo">
+        <source src="banana.mp4" type="video/mp4">
+    </video>
+    <header>
+    <div class="logo">
+        <img src="logo.png" alt="logo" width="80px" height="80px">
+    </div>
+    <nav>
+        <ul>
+            <li>Contact</li>
+            <li>About Us</li>
+            <li>Location</li>
+        </ul>
+    </nav>
+    </header>
+    <div class="heading">
+       <h1>The Farmer's Farm</h1>
+       <h6>This is a 3 acre private coconut farm owned by Ramappa BS</h6>
+    </div>
+    <main>
+    <div class="content">
+        <p>Currently, we have 100+ coconut trees and 20+ saplings. We are estimating to scale up the number of coconut trees in future. We don't sell tender coconuts.</p>
+        <p>We have a sophisticated borewell at a depth of ~800 feet and water pressure at ~2 inches</p>
+        <p>Currently, we have 2700+ chips banana plants which need to be harvested soon. Estimating average weight of ~15Kg per banana plant</p>
+    </div>
+    </main>
+    <p>Gallery</p>
+    <section>
+            <div class="image">
+                <a href="background.jpg" target="_self">
+                    <img src="background.jpg" alt="image1">
+                </a>
+            </div>
+            <div class="image">
+                <a href="background.jpg" target="_self">
+                    <img src="background.jpg" alt="image1">
+                </a>
+            </div>
+            <div class="image">
+                <a href="background.jpg" target="_self">
+                    <img src="background.jpg" alt="image1">
+                </a>
+            </div>
+            <div class="image">
+                <a href="background.jpg" target="_self">
+                    <img src="background.jpg" alt="image1">
+                </a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
