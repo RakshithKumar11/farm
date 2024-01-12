@@ -54,12 +54,14 @@ nav li{
 }
 .content{
     position: relative;
-    max-width:80%;
-    margin:0 15vw;
+    width:90%;
+    margin:0 5vw;
+    
 }
 .content p{
     font-size: 2vw;
     font-weight: 300;
+    
 }
 section{
     position: relative;
