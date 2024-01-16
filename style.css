@@ -42,6 +42,9 @@ nav li{
 }
 #gal-heading{
     font-size:6vw ;
+    font-weight: 700;
+    color:black;
+    -webkit-text-stroke: 0.3px white;
 }
 .heading h1{
     font-size: 8vw;
@@ -62,6 +65,9 @@ nav li{
 .content p{
     font-size: 2vw;
     font-weight: 300;
+    color: yellow;
+    font-weight: 600;
+    -webkit-text-stroke: 0.2px black;
     
 }
 section{
