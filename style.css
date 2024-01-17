@@ -26,7 +26,15 @@ nav li{
     list-style-type: none;
     display: inline-block;
     margin: 0 2vw;
-    font-size: 2vw;
+    text-shadow: 1px 1px 1px white;
+    font-size: 2.5vw;
+    a{
+        text-decoration: none;
+        color : red;
+    }
+}
+nav li a:hover{
+    text-shadow: 1px 1px 1px black;
 }
 .heading{
    position: relative;
@@ -44,12 +52,14 @@ nav li{
     font-size:6vw ;
     font-weight: 700;
     color:black;
-    -webkit-text-stroke: 0.3px white;
+    /* -webkit-text-stroke: 0.3px white; */
+    text-shadow: 2px 2px 2px white;
 }
 .heading h1{
     font-size: 8vw;
     flex-shrink: 1;
     margin-bottom: 0;
+    text-shadow: 8px 12px 14px black;
 }
 .heading h6{
     font-size: 2vw;
@@ -62,12 +72,13 @@ nav li{
     margin:0 5vw;
     
 }
-.content p{
+.content > p{
     font-size: 2vw;
     font-weight: 300;
     color: yellow;
     font-weight: 600;
-    -webkit-text-stroke: 0.2px black;
+    /* -webkit-text-stroke: 0.2px black; */
+    text-shadow: 2px 1px black ;
     
 }
 section{
@@ -82,14 +93,19 @@ section{
     position: relative;
     max-width: 23vw;
     display: inline;
-    margin: 0 2px;
+    margin: 4px;
 }
 .image img:hover{
     border: 2px solid black;
+    transform: scale(1.04);
 }
 p{
     position: relative;
     color:red;
     text-align: center;
     font-size: 8vh;
+}
+span{
+    background-color: yellow;
+    color:black;
 }
